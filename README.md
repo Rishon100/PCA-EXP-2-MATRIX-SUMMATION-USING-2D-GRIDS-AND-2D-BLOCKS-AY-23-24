@@ -36,7 +36,7 @@ Google Colab with NVCC Compiler
 
 ## PROGRAM:
 ```py
-%%writefile sumMatrix2D.cu
+%%cuda
 #include <cuda_runtime.h>
 #include <stdio.h>
 #include <sys/time.h>
